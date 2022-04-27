@@ -6,7 +6,7 @@ window.onload = function () {
       // generate a five digit number for the contact_number variable
       this.contact_number.value = (Math.random() * 100000) | 0;
       // these IDs from the previous steps
-      emailjs.sendForm("service_bxj5u98", "template_y15dokg", this).then(
+      emailjs.sendForm("hehe", "hehe", this).then(
         function () {
           const form = document.getElementById("contact-form");
           form.reset();
